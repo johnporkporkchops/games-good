@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Portfolio Study Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>✨ SHINY ARCADE HUB ✨</h1>
+    
+    <!-- Live Player Counter Section -->
+    <div class="counter-box">
+        <p>🟢 Active Learners Online: <span id="player-count">Loading...</span></p>
+    </div>
+
+    <div class="main-layout">
+        <!-- Main Games & Movies Grid -->
+        <div class="grid-container">
+            <!-- Roblox Card -->
+            <div class="card" onclick="openGame('roblox')">
+                <div class="card-glow"></div>
+                <h3>Roblox Cloud</h3>
+                <p>Access the platform via cloud proxy stream.</p>
+            </div>
+            
+            <!-- Movie Card Example -->
+            <div class="card" onclick="openGame('movies')">
+                <div class="card-glow"></div>
+                <h3>Cinema Stream</h3>
+                <p>Watch custom media clips and animations.</p>
+            </div>
+        </div>
+
+        <!-- Chat Room Sidebar -->
+        <div class="sidebar">
+            <h3>Global Group Chat</h3>
+            <!-- PASTE YOUR CBOX OR CHATROLL IFRAME CODE DIRECTLY BELOW THIS LINE -->
+            <div class="chat-placeholder">Chat widget will load here</div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
