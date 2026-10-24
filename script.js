@@ -37,4 +37,16 @@ function openGame(target) {
         window.location.href = "https://archive.org";
     }
 }
+function launchProxy(targetUrl) {
+    // PASTE YOUR NEW GLITCH OR STACKBLITZ LINK INSIDE THE QUOTES
+    const proxyBase = "https://glitch.me"; 
+    
+    // Encodes destination parameters seamlessly
+    const encodedUrl = btoa(targetUrl); 
+    
+    alert('Initiating stealth server routing node... Please wait.');
+    
+    // Redirects user session natively through your active backend
+    window.location.href = proxyBase + encodedUrl;
+}
 
