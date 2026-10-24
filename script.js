@@ -28,3 +28,13 @@ function simulateLivePlayers() {
 
 // Run counter simulation on page initialization
 document.addEventListener('DOMContentLoaded', simulateLivePlayers);
+function openGame(target) {
+    if (target === 'roblox') {
+        // Option A: Link out to the active unblocked cloud provider stream
+        window.location.href = "https://now.gg/games/roblox-mini-games.html"; 
+    } else if (target === 'movies') {
+        // Option B: Redirect users to an open-source HTML5 streaming video panel
+        window.location.href = "https://archive.org";
+    }
+}
+
